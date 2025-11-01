@@ -5,14 +5,11 @@ import argparse
 import numpy as np
 from stable_baselines3 import PPO
 
-# --- Configuration ---
 CONTROLLER_URL = "http://localhost:8080"
 EVALUATION_DURATION_MINS = 20
 POLLING_INTERVAL_SECS = 10
-DECISION_INTERVAL_SECS = 60 # How often the RL agent makes a decision
-NUM_KEYS = 5 # Should match the environment constants
-
-# --- Helper Functions (adapted from our environment) ---
+DECISION_INTERVAL_SECS = 20
+NUM_KEYS = 5
 
 def get_system_state():
     """Fetches the current state of the entire cluster from the controller."""
@@ -27,7 +24,7 @@ def get_system_state():
 def parse_state_to_observation(state_json):
     """Converts the JSON state into the NumPy vector for the agent."""
     if not state_json:
-        return np.zeros(NUM_KEYS * 3 * 3, dtype=np.float32) # 3 nodes, 3 metrics
+        return np.zeros(NUM_KEYS * 3 * 3, dtype=np.float32)
 
     key_order = [f"user_profile_{i}" for i in range(NUM_KEYS)]
     presence = np.zeros((3, NUM_KEYS), dtype=np.float32)
@@ -74,9 +71,6 @@ def calculate_system_metrics(state_json):
 
     total_storage_cost = sum(node.get('storageCost', 0) for node in state_json)
     
-    # This logic is a simplified simulation of latency. It does not use the
-    # controller's reported latency but calculates it based on the state,
-    # which is more stable for comparison.
     total_reads = 0
     predicted_latency_sum = 0
     presence_map = {}
@@ -121,7 +115,6 @@ def run_evaluation(mode, model_path=None):
     while time.time() - start_time < EVALUATION_DURATION_MINS * 60:
         current_time = time.time()
         
-        # --- RL Agent makes a decision every DECISION_INTERVAL_SECS ---
         if mode == 'rl' and current_time - last_decision_time >= DECISION_INTERVAL_SECS:
             print("\n--- RL Agent making a decision ---")
             last_decision_time = current_time
@@ -133,7 +126,6 @@ def run_evaluation(mode, model_path=None):
                 execute_action(action_type, key, node)
             print("---------------------------------\n")
 
-        # --- Poll for metrics every POLLING_INTERVAL_SECS ---
         state_json = get_system_state()
         avg_latency, total_cost = calculate_system_metrics(state_json)
         
@@ -148,7 +140,6 @@ def run_evaluation(mode, model_path=None):
 
         time.sleep(POLLING_INTERVAL_SECS)
 
-    # Save results to a file
     output_filename = f"evaluation_results_{mode}.json"
     with open(output_filename, 'w') as f:
         json.dump(results, f, indent=4)

@@ -6,26 +6,23 @@ def plot_comparison(static_file, rl_file):
     Loads evaluation results from two JSON files and generates
     comparative plots for latency and cost.
     """
-    # Load the data from the JSON files
     with open(static_file, 'r') as f:
         static_data = json.load(f)
     
     with open(rl_file, 'r') as f:
         rl_data = json.load(f)
 
-    # Extract the time, latency, and cost for the static policy
-    static_time = [item['time'] / 60 for item in static_data] # Convert seconds to minutes
+    static_time = [item['time'] / 60 for item in static_data]
     static_latency = [item['avg_latency'] for item in static_data]
     static_cost = [item['total_cost'] for item in static_data]
 
-    # Extract the time, latency, and cost for the RL policy
-    rl_time = [item['time'] / 60 for item in rl_data] # Convert seconds to minutes
+    rl_time = [item['time'] / 60 for item in rl_data]
     rl_latency = [item['avg_latency'] for item in rl_data]
     rl_cost = [item['total_cost'] for item in rl_data]
 
     # --- Plot 1: Average Read Latency Comparison ---
     
-    plt.style.use('seaborn-v0_8-whitegrid') # Use a nice style for the plots
+    plt.style.use('seaborn-v0_8-whitegrid')
     fig, ax1 = plt.subplots(figsize=(12, 7))
 
     ax1.plot(static_time, static_latency, label='Static Policy (Baseline)', color='red', linestyle='--')
@@ -37,11 +34,10 @@ def plot_comparison(static_file, rl_file):
     ax1.legend(fontsize=12)
     ax1.grid(True)
     
-    # Save the latency plot to a file
     latency_plot_filename = 'latency_comparison.png'
     plt.savefig(latency_plot_filename)
     print(f"Latency comparison plot saved as '{latency_plot_filename}'")
-    plt.close() # Close the figure to start fresh for the next plot
+    plt.close()
 
     # --- Plot 2: Total System Cost Comparison ---
 
@@ -56,7 +52,6 @@ def plot_comparison(static_file, rl_file):
     ax2.legend(fontsize=12)
     ax2.grid(True)
 
-    # Save the cost plot to a file
     cost_plot_filename = 'cost_comparison.png'
     plt.savefig(cost_plot_filename)
     print(f"Cost comparison plot saved as '{cost_plot_filename}'")
