@@ -1,0 +1,49 @@
+x-replication-node-template: &replication-node-defaults
+  build: ./replication # Build path is the same for all
+  image: replication     # Image name is the same for all
+  environment:
+    - SERVER_PORT=8080 # Internal port is always 8080
+
+services:
+  replicationcontroller:
+    build: ./replicationcontroller
+    image: replicationcontroller
+    container_name: replicationcontroller
+    ports:
+      - "8080:8080"
+    environment:
+      - CLUSTER_NODES=http://replication-us:8080,http://replication-eu:8080,http://replication-ap:8080
+    depends_on:
+      - replication-us
+      - replication-eu
+      - replication-ap
+
+  replication-us:
+    # The '<<:' is a YAML merge key. It merges the contents of the alias here.
+    # The '*replication-node-defaults' is a YAML alias, referencing our template.
+    <<: *replication-node-defaults
+    container_name: replication-us
+    ports:
+      - "8081:8080" # This is the unique part for this service
+    environment:
+      # We can still add/override environment variables
+      - SERVER_PORT=8080
+      - NODE_ID=us-east-1
+
+  replication-eu:
+    <<: *replication-node-defaults # Merge the template
+    container_name: replication-eu
+    ports:
+      - "8082:8080" # Unique part
+    environment:
+      - SERVER_PORT=8080
+      - NODE_ID=eu-west-1
+
+  replication-ap:
+    <<: *replication-node-defaults # Merge the template
+    container_name: replication-ap
+    ports:
+      - "8083:8080" # Unique part
+    environment:
+      - SERVER_PORT=8080
+      - NODE_ID=ap-south-1
