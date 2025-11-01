@@ -23,13 +23,11 @@ public class DataStoreService {
 
     public void put(String key, String value) {
         store.put(key, value);
-        // Increment write count for this key
         writeCounts.computeIfAbsent(key, k -> new LongAdder()).increment();
     }
 
     public Optional<String> get(String key) {
         if (store.containsKey(key)) {
-            // Increment read count only on a successful read (a hit)
             readCounts.computeIfAbsent(key, k -> new LongAdder()).increment();
             return Optional.ofNullable(store.get(key));
         }
@@ -46,7 +44,6 @@ public class DataStoreService {
         return store.containsKey(key);
     }
 
-    // We will need a way to get these metrics later for the API
     public long getReadCount(String key) {
         return Optional.ofNullable(readCounts.get(key)).map(LongAdder::sum).orElse(0L);
     }
@@ -56,7 +53,6 @@ public class DataStoreService {
     }
 
     public Map<String, KeyMetric> getAllKeyMetrics() {
-        // Collect all unique keys from all maps
         Set<String> allKeys = new HashSet<>(store.keySet());
         allKeys.addAll(readCounts.keySet());
         allKeys.addAll(writeCounts.keySet());

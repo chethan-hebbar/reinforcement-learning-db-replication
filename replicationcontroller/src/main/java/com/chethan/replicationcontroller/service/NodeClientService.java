@@ -10,10 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-// A simple DTO for the request body
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
 @Service
 public class NodeClientService {
 

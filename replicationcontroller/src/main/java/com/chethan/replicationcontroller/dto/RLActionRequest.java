@@ -3,7 +3,7 @@ import lombok.Data;
 
 @Data
 public class RLActionRequest {
-    private String actionType; // e.g., "REPLICATE" or "EVICT"
+    private String actionType; // "REPLICATE" or "EVICT"
     private String key;
-    private String targetNode; // The node to act upon, e.g., "replication-us"
+    private String targetNode; // The node to act upon
 }

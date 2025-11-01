@@ -14,9 +14,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Slf4j
 @Service
 public class ReplicationService {
-
-    // Maps a data key to a set of node URLs that hold the data.
-    // e.g., "user123" -> {"http://localhost:8081", "http://localhost:8082"}
     private final ConcurrentHashMap<String, Set<String>> replicationMap = new ConcurrentHashMap<>();
 
     @Autowired
@@ -56,7 +53,6 @@ public class ReplicationService {
 
         String targetNode;
         if (nodesWithKey.isEmpty()) {
-            // --- CACHE MISS SCENARIO ---
             // The controller doesn't know where the data is. This can happen if the
             // controller restarts or the data was written before our current policy.
             // We'll just pick the first node in the cluster to ask. This will result
@@ -64,7 +60,6 @@ public class ReplicationService {
             log.warn("Key '{}' not found in replication map. Performing a discovery read.", key);
             targetNode = clusterConfig.getNodes().getFirst();
         } else {
-            // --- CACHE HIT SCENARIO ---
             // For now, we'll use a simple strategy: just pick the first node from the set.
             // A more advanced strategy could be to pick one randomly for load balancing,
             // or pick the one geographically closest to the user.
@@ -75,7 +70,6 @@ public class ReplicationService {
         NodeReadResponse nodeResponse = nodeClientService.fetchData(targetNode, key);
 
         if (nodeResponse == null) {
-            // Handle case where the node is down or request fails
             return new ClientReadResponse(key, null, 0, "ERROR: FAILED_TO_FETCH");
         }
 

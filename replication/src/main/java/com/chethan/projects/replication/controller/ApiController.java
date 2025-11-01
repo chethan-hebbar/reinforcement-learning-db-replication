@@ -29,8 +29,6 @@ public class ApiController {
     @GetMapping("/internal/data/{key}")
     public ResponseEntity<String> getInternalData(@PathVariable String key) {
         Optional<String> value = dataStoreService.get(key);
-        // Note: This does NOT increment the public read count, as it's an internal operation.
-        // If we wanted to, we would call a different service method.
         return value.map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
@@ -65,7 +63,6 @@ public class ApiController {
      */
     @PostMapping("/management/replicate")
     public ResponseEntity<Void> replicateData(@RequestBody SimpleReplicationRequest request) {
-        // This is a simplified version for now.
         dataStoreService.put(request.getKey(), request.getValue());
         return ResponseEntity.ok().build();
     }
@@ -73,11 +70,6 @@ public class ApiController {
     @GetMapping("/data/{key}")
     public ResponseEntity<ReadResponse> getData(@PathVariable String key) {
         ReadResponse response = dataStoreService.handleGet(key);
-        if (response.getValue() == null) {
-            // We return 200 OK even on a miss, because the response body
-            // contains the crucial latency information.
-            return ResponseEntity.ok(response);
-        }
         return ResponseEntity.ok(response);
     }
 }
