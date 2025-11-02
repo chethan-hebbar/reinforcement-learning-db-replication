@@ -38,10 +38,10 @@ The core of this project is proving that a trained RL agent can manage a distrib
 First, we trained an agent with the primary goal of minimizing read latency at all costs (`latency_weight=0.8`), while treating storage cost as a secondary objective.
 
 #### System Cost: High-Performance Agent
-![High-Performance Cost Comparison](rl-agent/cost_comparison_hp.png)
+![High-Performance Cost Comparison](/rl-agent/cost_comparison_hp.png)
 
 #### Read Latency: High-Performance Agent
-![High-Performance Latency Comparison](rl-agent/latency_comparison_hp.png)
+![High-Performance Latency Comparison](/rl-agent/latency_comparison_hp.png)
 
 **Analysis:**
 *   **Perfect Performance:** The AI agent (blue line) achieved a perfect 10ms average read latency, perfectly matching the "gold standard" performance of the expensive static baseline (red line).
