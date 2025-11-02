@@ -38,10 +38,10 @@ The core of this project is proving that a trained RL agent can manage a distrib
 First, we trained an agent with the primary goal of minimizing read latency at all costs (`latency_weight=0.8`), while treating storage cost as a secondary objective.
 
 #### System Cost: High-Performance Agent
-![High-Performance Cost Comparison](/rl-agent/cost_comparison_hp.png)
+![High-Performance Cost Comparison](cost_comparison_hp.png)
 
 #### Read Latency: High-Performance Agent
-![High-Performance Latency Comparison](/rl-agent/latency_comparison_hp.png)
+![High-Performance Latency Comparison](latency_comparison_hp.png)
 
 **Analysis:**
 *   **Perfect Performance:** The AI agent (blue line) achieved a perfect 10ms average read latency, perfectly matching the "gold standard" performance of the expensive static baseline (red line).
@@ -53,10 +53,10 @@ First, we trained an agent with the primary goal of minimizing read latency at a
 Next, we retrained the agent with a new motivation: prioritize minimizing storage cost above all else (`cost_weight=0.7`). The results were impressive.
 
 #### System Cost: Cost-Conscious Agent
-![Cost-Conscious Cost Comparison](rl-agent/cost_comparison.png)
+![Cost-Conscious Cost Comparison](cost_comparison.png)
 
 #### Read Latency: Cost-Conscious Agent
-![Cost-Conscious Latency Comparison](rl-agent/latency_comparison.png)
+![Cost-Conscious Latency Comparison](latency_comparison.png)
 
 **Analysis:**
 *   **Optimal Performance, Drastically Lower Cost:** This agent discovered a more sophisticated policy. It managed to deliver a perfect 10ms average read latency, but it did so from a much lower and more stable cost baseline.
