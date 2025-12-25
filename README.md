@@ -50,7 +50,7 @@ To address the limitations of standard Reinforcement Learning in distributed sys
 ## Experiment 1: Small Scale (5 Keys / 3 Nodes)
 In this baseline scenario, both agents were trained to minimize cost while maintaining a strict 10ms latency SLA.
 
-![Small Scale Comparison](results/final_comparison_cost_three_keys.png)
+![Small Scale Comparison](results/final_comparison_cost_5keys.png)
 
 **Analysis:**
 *   Both architectures successfully outperformed the static baseline.
