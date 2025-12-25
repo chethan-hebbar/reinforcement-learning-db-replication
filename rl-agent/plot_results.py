@@ -20,7 +20,7 @@ def plot_comparison(static_file, rl_file):
     rl_latency = [item['avg_latency'] for item in rl_data]
     rl_cost = [item['total_cost'] for item in rl_data]
 
-    # --- Plot 1: Average Read Latency Comparison ---
+    # Average Read Latency Comparison ---
     
     plt.style.use('seaborn-v0_8-whitegrid')
     fig, ax1 = plt.subplots(figsize=(12, 7))
@@ -39,7 +39,7 @@ def plot_comparison(static_file, rl_file):
     print(f"Latency comparison plot saved as '{latency_plot_filename}'")
     plt.close()
 
-    # --- Plot 2: Total System Cost Comparison ---
+    # Total System Cost Comparison ---
 
     fig, ax2 = plt.subplots(figsize=(12, 7))
 
@@ -60,7 +60,7 @@ def plot_comparison(static_file, rl_file):
 
 if __name__ == "__main__":
     static_results_file = "evaluation_results_static.json"
-    rl_results_file = "evaluation_results_rl.json"
+    rl_results_file = "evaluation_results_rl_20keys.json"
     print("Generating comparison plots...")
     plot_comparison(static_results_file, rl_results_file)
     print("Done.")

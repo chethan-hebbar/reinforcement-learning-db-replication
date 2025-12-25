@@ -8,7 +8,7 @@ COPY src ./src
 
 RUN mvn package -DskipTests
 
-FROM openjdk:25-jdk-slim
+FROM amazoncorretto:25-alpine-jdk
 
 WORKDIR /app
 

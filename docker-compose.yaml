@@ -1,8 +1,8 @@
 x-replication-node-template: &replication-node-defaults
-  build: ./replication 
-  image: replication 
+  build: ./replication
+  image: replication
   environment:
-    - SERVER_PORT=8080 
+    - SERVER_PORT=8080
 
 services:
   replicationcontroller:
@@ -12,35 +12,50 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - CLUSTER_NODES=http://replication-us:8080,http://replication-eu:8080,http://replication-ap:8080
+      - CLUSTER_NODES=http://replication-us:8080,http://replication-eu:8080,http://replication-ap:8080,http://replication-sa:8080,http://replication-jp:8080
     depends_on:
       - replication-us
       - replication-eu
       - replication-ap
+      - replication-sa
+      - replication-jp
 
   replication-us:
     <<: *replication-node-defaults
     container_name: replication-us
-    ports:
-      - "8081:8080"
+    ports: ["8081:8080"]
     environment:
       - SERVER_PORT=8080
-      - NODE_ID=us-east-1
+      - NODE_ID=replication-us
 
   replication-eu:
     <<: *replication-node-defaults
     container_name: replication-eu
-    ports:
-      - "8082:8080"
+    ports: ["8082:8080"]
     environment:
       - SERVER_PORT=8080
-      - NODE_ID=eu-west-1
+      - NODE_ID=replication-eu
 
   replication-ap:
     <<: *replication-node-defaults
     container_name: replication-ap
-    ports:
-      - "8083:8080"
+    ports: ["8083:8080"]
     environment:
       - SERVER_PORT=8080
-      - NODE_ID=ap-south-1
+      - NODE_ID=replication-ap
+
+  replication-sa:
+    <<: *replication-node-defaults
+    container_name: replication-sa
+    ports: ["8084:8080"]
+    environment:
+      - SERVER_PORT=8080
+      - NODE_ID=replication-sa
+
+  replication-jp:
+    <<: *replication-node-defaults
+    container_name: replication-jp
+    ports: ["8085:8080"]
+    environment:
+      - SERVER_PORT=8080
+      - NODE_ID=replication-jp

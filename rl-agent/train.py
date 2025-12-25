@@ -2,6 +2,7 @@ import time
 from stable_baselines3 import PPO
 from stable_baselines3.common.env_util import make_vec_env
 from stable_baselines3.common.callbacks import BaseCallback
+from sb3_contrib import MaskablePPO
 
 from replication_env import ReplicationEnv
 
@@ -19,13 +20,16 @@ if __name__ == "__main__":
 
     env = make_vec_env(ReplicationEnv, n_envs=1)
 
-    model = PPO("MlpPolicy",
+    model = MaskablePPO("MlpPolicy",
                 env,
                 verbose=1, # Prints out training progress
-                learning_rate=0.0005,
+                learning_rate=0.0003,
+                ent_coef=0.05,
+                n_steps=2048, 
+                batch_size=64,
                 tensorboard_log="./ppo_replication_tensorboard/")
 
-    training_timesteps = 25_000
+    training_timesteps = 100_000
     print(f"Starting training for {training_timesteps} timesteps...")
     start_time = time.time()
     

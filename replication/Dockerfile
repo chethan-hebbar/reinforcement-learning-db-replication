@@ -13,10 +13,7 @@ COPY src ./src
 # -DskipTests skips running unit tests during the build for speed.
 RUN mvn package -DskipTests
 
-
-# --- Stage 2: Runtime Stage ---
-# Use a lightweight official OpenJDK image for the final runtime environment
-FROM openjdk:25-jdk-slim
+FROM amazoncorretto:25-alpine-jdk
 
 # Set the working directory
 WORKDIR /app
