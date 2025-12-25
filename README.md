@@ -110,7 +110,7 @@ python evaluate.py --mode rl --model_path ppo_mlp_20keys.zip
 ### Step 4: Train & Evaluate the GNN Agent
 Navigate to the rl-agent-gnn-rllib directory. This uses Ray RLlib.
 ```bash
-cd rl-agent-gnn-rllib
+cd rl-agent-gnn
 source venv/bin/activate
 # Train (Saves checkpoints to manual_checkpoints/)
 python train.py
@@ -122,5 +122,6 @@ python evaluate_gnn.py
 Use the plotting script to generate the head-to-head graphs.
 ```bash
 # Ensure evaluation_results_*.json files are in the same directory
+cd results
 python plot_comparison_all.py
 ```
