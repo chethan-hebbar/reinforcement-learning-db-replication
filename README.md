@@ -72,7 +72,7 @@ We scaled the environment complexity by 400%, introducing 5 global regions (US, 
 
 ---
 
-## How to Run the Simulation
+## How to Run the Project
 
 Follow these steps to reproduce the experiments for both architectures.
 
@@ -85,3 +85,42 @@ Follow these steps to reproduce the experiments for both architectures.
 Navigate to the project root and launch the 5-node cluster.
 ```bash
 docker compose up --build
+```
+
+### Step 2: Start the Workload
+In a separate terminal, start the Python workload generator.
+```bash
+cd workload-generator
+source venv/bin/activate
+# 'test' mode uses random profiles to prevent agents from memorizing time sequences
+python generator.py --mode test
+```
+
+### Step 3: Train & Evaluate the MLP Agent
+Navigate to the rl-agent directory.
+```bash
+cd rl-agent
+source venv/bin/activate
+# Train (Saves to ppo_mlp_20keys.zip)
+python train.py
+# Evaluate
+python evaluate.py --mode rl --model_path ppo_mlp_20keys.zip
+```
+
+### Step 4: Train & Evaluate the GNN Agent
+Navigate to the rl-agent-gnn-rllib directory. This uses Ray RLlib.
+```bash
+cd rl-agent-gnn-rllib
+source venv/bin/activate
+# Train (Saves checkpoints to manual_checkpoints/)
+python train.py
+# Evaluate (Automatically picks the best checkpoint)
+python evaluate_gnn.py
+```
+
+### Step 5: Visualize the Comparison
+Use the plotting script to generate the head-to-head graphs.
+```bash
+# Ensure evaluation_results_*.json files are in the same directory
+python plot_comparison_all.py
+```
