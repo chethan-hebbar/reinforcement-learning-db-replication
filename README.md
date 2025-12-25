@@ -25,99 +25,63 @@ The project is a multi-container Docker application composed of four main servic
 1.  **Replication Controller (`replicationcontroller`):** The central brain. A Java/Spring Boot service that acts as a router for all client traffic and exposes an API for the RL agent to manage the cluster.
 2.  **Database Nodes (`replication`):** Java/Spring Boot services representing database instances in different geographic regions (e.g., `us-east`, `eu-west`). They store data, track read/write metrics, and simulate latency and cost.
 3.  **Workload Generator (`workload-generator`):** A Python script that simulates a dynamic, global user base sending a continuous and shifting stream of read/write requests to the controller.
-4.  **RL Agent (`rl-agent`):** The intelligence. A Python application using Stable-Baselines3 that observes the system state via the controller, decides on an action (replicate/evict), and executes it.
+4.  **RL Agent (`rl-agent`):** The intelligence. A Python application that observes the system state via the controller, decides on an action (replicate/evict), and executes it.
 
 ---
 
+## Implementation and Analysis of Architectures: MLP vs. Graph Neural Networks
 
-## Results: The Power of an AI-Driven Policy
+To address the limitations of standard Reinforcement Learning in distributed systems, we implemented and compared two distinct deep learning architectures. This comparison explores the trade-off between **precision in fixed environments** versus **scalability in dynamic environments**.
 
-The core of this project is proving that a trained RL agent can manage a distributed system more effectively than a static policy. We evaluated our agent against a continous replication baseline under a highly volatile and dynamic workload that shifted its focus between different data keys and geographic regions every 10 seconds.
+### 1. The Specialist: Multi-Layer Perceptron (MLP)
+*   **Architecture:** A standard Feed-Forward Neural Network (PPO).
+*   **Input:** A flattened, fixed-size vector representing the state of specific keys on specific nodes.
+*   **Behavior:** The MLP acts as a "Memorizer" It learns the specific identity of keys (e.g., "Key #5 is usually hot in Europe").
+*   **Limitation:** It is brittle. The model cannot handle a variable number of keys or nodes. Adding a single new server requires retraining the entire model from scratch.
 
-### Scenario 1: The "High-Performance" Agent
-First, we trained an agent with the primary goal of minimizing read latency at all costs (`latency_weight=0.8`), while treating storage cost as a secondary objective.
-
-#### System Cost: High-Performance Agent
-![High-Performance Cost Comparison](cost_comparison_hp.png)
-
-#### Read Latency: High-Performance Agent
-![High-Performance Latency Comparison](latency_comparison_hp.png)
-
-**Analysis:**
-*   **Perfect Performance:** The AI agent (blue line) achieved a perfect 10ms average read latency, perfectly matching the "gold standard" performance of the expensive static baseline (red line).
-*   **Intelligent Cost Savings:** Despite the chaotic workload, the agent intelligently identified and evicted "cold" data, consistently operating at a lower system cost than the baseline. It learned to pay the maximum price only when absolutely necessary to guarantee performance.
+### 2. The Generalist: Graph Neural Network (GNN)
+*   **Architecture:** A Graph Attention Network (GATv2) integrated with Ray RLlib.
+*   **Input:** A dynamic graph where Keys and Servers are nodes, and replications are edges.
+*   **Behavior:** The GNN acts as a "Topology Manager" It learns universal rules of physics for the system (e.g., "If *any* key has high read latency on a generic node, replicate it").
+*   **Advantage:** It exhibits **Zero-Shot Transfer**. A policy trained on 5 keys can be deployed immediately on a cluster with 500 keys without retraining, as it learns to score relationships rather than memorizing IDs.
 
 ---
 
-### Scenario 2: The "Cost-Conscious" Agent
-Next, we retrained the agent with a new motivation: prioritize minimizing storage cost above all else (`cost_weight=0.7`). The results were impressive.
+## Experiment 1: Small Scale (5 Keys / 3 Nodes)
+In this baseline scenario, both agents were trained to minimize cost while maintaining a strict 10ms latency SLA.
 
-#### System Cost: Cost-Conscious Agent
-![Cost-Conscious Cost Comparison](cost_comparison.png)
-
-#### Read Latency: Cost-Conscious Agent
-![Cost-Conscious Latency Comparison](latency_comparison.png)
+![Small Scale Comparison](results/final_comparison_cost_three_keys.png)
 
 **Analysis:**
-*   **Optimal Performance, Drastically Lower Cost:** This agent discovered a more sophisticated policy. It managed to deliver a perfect 10ms average read latency, but it did so from a much lower and more stable cost baseline.
-*   **Predictive & Surgical Actions:** The agent learned the workload's cyclical nature. The cost plot shows it performing precise, "just-in-time" replications to handle brief periods of high demand, immediately followed by evictions to return to its optimized, low-cost state.
+*   Both architectures successfully outperformed the static baseline.
+*   The MLP achieved slightly lower absolute costs by overfitting to the small, fixed number of keys.
+*   The GNN learned a stable, effective policy that roughly matched the MLP's performance, proving that graph-based learning is viable even for small clusters.
 
-**Conclusion:** We successfully demonstrate that a Reinforcement Learning agent can not only manage a complex distributed system but can be tuned to meet specific business objectives, discovering non-obvious, highly optimized policies that outperform static strategies.
+---
+
+## Experiment 2: Large Scale (20 Keys / 5 Nodes)
+We scaled the environment complexity by 400%, introducing 5 global regions (US, EU, AP, SA, JP) and 20 distinct data keys with volatile traffic patterns.
+
+![Large Scale Comparison](results/final_comparison_cost_20keys.png)
+
+**Analysis:**
+*   **Static Baseline (Red):** Fixed at $150.00 (Max Cost).
+*   **MLP Agent (Blue):** Achieved the lowest raw cost (~$70) by aggressively memorizing the specific traffic patterns of the 20 fixed keys. However, this policy is rigid and non-transferable.
+*   **GNN Agent (Green):** Learned a robust topology-aware policy, reducing costs by ~20% (to ~$125) without memorizing specific keys. Crucially, this agent demonstrated **dynamic elasticity**, actively adding and removing replicas in real-time response to "chaotic" traffic spikes.
+*   **Conclusion:** While the MLP wins on raw optimization for a *static* cluster size, the GNN provides a **scalable, general-purpose solution** suitable for real-world elastic clouds where the number of keys and nodes changes constantly.
+
+---
 
 ## How to Run the Simulation
 
-Follow these steps to reproduce the results.
+Follow these steps to reproduce the experiments for both architectures.
 
 ### Prerequisites
 *   Docker & Docker Compose
-*   Java 25 & Maven
-*   Python 3.11
+*   Java 17+ & Maven
+*   Python 3.9+ (Virtual Env recommended)
 
-### Step 1: Launch the Cluster
-Navigate to the project root directory (where `docker-compose.yml` is located) and run:
+### Step 1: Launch the Infrastructure
+Navigate to the project root and launch the 5-node cluster.
 ```bash
 docker compose up --build
-```
-
-### Step 2: Start the Workload
-In a second terminal, navigate to the `workload-generator` directory, set up the environment, and run the script. This will seed the database and generate continuous traffic.
-```bash
-cd workload-generator
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python generator.py
-```
-
-### Step 3: Train the RL Agent
-In a third terminal, navigate to the `rl-agent` directory, set up its environment, and run the training script. This will train the agent and save its policy to `ppo_replication_policy.zip`.
-```bash
-cd rl-agent
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python train.py
-```
-
-### Step 4: Evaluate the Agent
-After training, run the evaluation script. First, run the baseline, then the RL agent. **Remember to restart the Docker cluster between runs for a fair comparison.**
-
-**Run the static baseline:**
-```bash
-# (Restart docker compose and workload generator)
-python evaluate.py --mode static
-```
-
-**Run the trained RL agent:**
-```bash
-# (Restart docker compose and workload generator)
-python evaluate.py --mode rl --model_path pppo_replication_policy.zip
-```
-
-### Step 5: Generate the Plots
-Run the plotting script to generate the final comparison images from the evaluation data.
-```bash
-python plot_results.py
-```
-
----

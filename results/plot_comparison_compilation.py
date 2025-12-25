@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import os
 
 # --- Configuration: File Names ---
-FILE_STATIC = 'evaluation_results_static.json'
-FILE_MLP = 'evaluation_results_mlp.json'
-FILE_GNN = 'evaluation_results_gnn.json'
+FILE_STATIC = 'evaluation_results_static_20keys.json'
+FILE_MLP = 'evaluation_results_mlp_20keys.json'
+FILE_GNN = 'evaluation_results_gnn_20keys.json'
 
 def load_data(filepath):
     """Safe loading of JSON data."""
@@ -44,9 +44,6 @@ def plot_comparison():
     # Use a clean style
     plt.style.use('seaborn-v0_8-whitegrid')
 
-    # ==========================================
-    # PLOT 1: SYSTEM COST COMPARISON
-    # ==========================================
     fig1, ax1 = plt.subplots(figsize=(12, 7))
 
     # Static (Baseline) - Red Dashed
@@ -75,9 +72,6 @@ def plot_comparison():
     print(f"Saved cost plot to: {save_path_cost}")
     plt.close()
 
-    # ==========================================
-    # PLOT 2: LATENCY COMPARISON
-    # ==========================================
     fig2, ax2 = plt.subplots(figsize=(12, 7))
 
     # Static (Baseline)
@@ -101,8 +95,6 @@ def plot_comparison():
     ax2.legend(fontsize=12, loc='best', frameon=True)
     ax2.grid(True, linestyle=':', alpha=0.6)
 
-    # Optional: Set Y-limit if you want to zoom in on low latency
-    # ax2.set_ylim(0, 160) 
 
     save_path_lat = 'final_comparison_latency.png'
     plt.savefig(save_path_lat, dpi=300)

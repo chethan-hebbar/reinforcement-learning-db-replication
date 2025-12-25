@@ -60,7 +60,7 @@ def plot_comparison(static_file, rl_file):
 
 if __name__ == "__main__":
     static_results_file = "evaluation_results_static.json"
-    rl_results_file = "evaluation_results_rl_20keys.json"
+    rl_results_file = "evaluation_results_rl.json"
     print("Generating comparison plots...")
     plot_comparison(static_results_file, rl_results_file)
     print("Done.")

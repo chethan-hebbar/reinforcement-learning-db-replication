@@ -1,0 +1,5787 @@
+[
+    {
+        "time": 1.1920928955078125e-06,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 1.0394718647003174,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 2.0805599689483643,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 3.1240599155426025,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 4.1686952114105225,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 5.21943998336792,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 6.270185947418213,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 7.326024055480957,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 8.37388014793396,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 9.422219038009644,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 10.467043161392212,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 11.519010066986084,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 12.567229986190796,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 13.619010210037231,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 14.671581983566284,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 15.717798948287964,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 16.76735281944275,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 17.813676118850708,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 18.860167026519775,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 19.90473198890686,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 20.945828914642334,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 21.992305040359497,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 23.039877891540527,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 24.087777137756348,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 25.138845920562744,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 26.188293933868408,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 27.235891103744507,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 28.284904956817627,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 29.331228017807007,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 30.385526180267334,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 31.425544023513794,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 32.475313901901245,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 33.53143787384033,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 34.58405900001526,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 35.642271995544434,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 36.685930013656616,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 37.73540687561035,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 38.78010392189026,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 39.83177185058594,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 40.879903078079224,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 41.929352045059204,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 42.980823040008545,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 44.026500940322876,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 45.071954011917114,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 46.12048602104187,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 47.16738200187683,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 48.2192919254303,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 49.27002811431885,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 50.31897711753845,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 51.36579895019531,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 52.41426205635071,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 53.46770691871643,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 54.5190269947052,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 55.56968879699707,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 56.61448001861572,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 57.643924951553345,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 58.68963599205017,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 59.738712787628174,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 60.78264307975769,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 61.835082054138184,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 62.86389899253845,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 63.90845799446106,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 64.93494200706482,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 65.98608207702637,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 67.03312587738037,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 68.07515501976013,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 69.12077593803406,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 70.1672248840332,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 71.21418595314026,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 72.25716781616211,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 73.30816793441772,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 74.3638060092926,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 75.41564202308655,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 76.45298600196838,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 77.47839498519897,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 78.51101016998291,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 79.5514829158783,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 80.59504199028015,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 81.63824319839478,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 82.68577003479004,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 83.72965621948242,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 84.76840496063232,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 85.81818389892578,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 86.86728811264038,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 87.91602897644043,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 88.96335291862488,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 90.0096971988678,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 91.05352187156677,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 92.1006851196289,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 93.14528012275696,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 94.19334411621094,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 95.23901104927063,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 96.28582787513733,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 97.33443593978882,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 98.37083911895752,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 99.42041993141174,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 100.46842908859253,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 101.51324796676636,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 102.56068682670593,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 103.60727500915527,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 104.65595698356628,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 105.69856810569763,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 106.7418041229248,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 107.79561185836792,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 108.84199500083923,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 109.8844051361084,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 110.93133401870728,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 111.97376298904419,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 113.01134896278381,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 114.0584499835968,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 115.0953118801117,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 116.13642406463623,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 117.18402600288391,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 118.22584104537964,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 119.26035213470459,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 120.30461287498474,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 121.34537982940674,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 122.38751006126404,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 123.43438696861267,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 124.48051476478577,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 125.52692198753357,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 126.57256984710693,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 127.59391808509827,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 128.63744592666626,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 129.67032504081726,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 130.71264791488647,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 131.75428795814514,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 132.7983591556549,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 133.84272503852844,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 134.88289380073547,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 135.92220497131348,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 136.95798087120056,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 137.99517107009888,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 139.0424289703369,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 140.0857548713684,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 141.13127207756042,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 142.18027710914612,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 143.22622799873352,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 144.26932311058044,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 145.30979418754578,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 146.3401529788971,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 147.37904500961304,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 148.42078399658203,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 149.4668390750885,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 150.51136708259583,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 151.55653619766235,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 152.60195589065552,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 153.65115189552307,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 154.69519901275635,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 155.74424600601196,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 156.78617405891418,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 157.8307249546051,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 158.87142395973206,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 159.9171359539032,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 160.95537495613098,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 161.99372100830078,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 163.04074907302856,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 164.0836639404297,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 165.1289119720459,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 166.17577815055847,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 167.22280502319336,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 168.26928687095642,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 169.31770491600037,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 170.36248087882996,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 171.40892505645752,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 172.45573091506958,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 173.5035378932953,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 174.54579210281372,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 175.59214115142822,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 176.6323001384735,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 177.65906405448914,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 178.69995713233948,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 179.74691319465637,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 180.78296208381653,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 181.82805514335632,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 182.86700201034546,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 183.9096200466156,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 184.93344497680664,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 185.97749996185303,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 187.008868932724,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 188.05238723754883,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 189.09726810455322,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 190.14258480072021,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 191.17116713523865,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 192.21455121040344,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 193.25633096694946,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 194.30014491081238,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 195.34220600128174,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 196.38589811325073,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 197.4298551082611,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 198.47447514533997,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 199.51388001441956,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 200.55925989151,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 201.60122990608215,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 202.64276790618896,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 203.68366193771362,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 204.72444915771484,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 205.77321410179138,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 206.81667590141296,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 207.8624300956726,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 208.90954303741455,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 209.95040798187256,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 210.98872208595276,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 212.0292899608612,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 213.0708408355713,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 214.10959911346436,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 215.1549551486969,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 216.19866609573364,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 217.24357104301453,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 218.28424310684204,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 219.31457495689392,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 220.35633897781372,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 221.39857006072998,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 222.44050407409668,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 223.48618912696838,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 224.5313858985901,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 225.5768551826477,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 226.62427806854248,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 227.64920616149902,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 228.69432616233826,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 229.7392029762268,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 230.7860291004181,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 231.82765913009644,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 232.86920809745789,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 233.91170692443848,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 234.9440290927887,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 235.9813289642334,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 237.0205099582672,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 238.05969095230103,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 239.09639716148376,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 240.13602995872498,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 241.17365503311157,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 242.21696400642395,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 243.25846195220947,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 244.30266189575195,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 245.34249901771545,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 246.38816595077515,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 247.42783904075623,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 248.46754479408264,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 249.51119804382324,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 250.55266904830933,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 251.59850978851318,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 252.63694500923157,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 253.67710185050964,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 254.71708393096924,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 255.7575979232788,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 256.80400586128235,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 257.84466910362244,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 258.88284492492676,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 259.9209179878235,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 260.9561200141907,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 261.9956040382385,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 263.0368010997772,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 264.0788848400116,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 265.1182930469513,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 266.1626100540161,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 267.20480704307556,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 268.2489130496979,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 269.29421496391296,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 270.3340859413147,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 271.37883591651917,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 272.42224311828613,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 273.46478605270386,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 274.5092611312866,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 275.55307388305664,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 276.5936059951782,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 277.6153280735016,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 278.65937399864197,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 279.70374512672424,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 280.7416248321533,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 281.78468585014343,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 282.82675099372864,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 283.8487482070923,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 284.89306712150574,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 285.9363338947296,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 286.977422952652,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 288.0213780403137,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 289.06243419647217,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 290.10512113571167,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 291.14830589294434,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 292.1914131641388,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 293.23362493515015,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 294.2742328643799,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 295.3158030509949,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 296.35874485969543,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 297.4009599685669,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 298.43894505500793,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 299.47964692115784,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 300.5226011276245,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 301.5672378540039,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 302.6080288887024,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 303.6522419452667,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 304.69224405288696,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 305.73403811454773,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 306.7745108604431,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 307.8171899318695,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 308.8562288284302,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 309.89381194114685,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 310.9359929561615,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 311.97916078567505,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 313.0191149711609,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 314.063285112381,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 315.087797164917,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 316.130331993103,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 317.17251896858215,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 318.2143850326538,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 319.25208497047424,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 320.2949719429016,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 321.337327003479,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 322.3778419494629,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 323.4204080104828,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 324.4589810371399,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 325.5020549297333,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 326.53930497169495,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 327.56234908103943,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 328.5996298789978,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 329.6409869194031,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 330.68436312675476,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 331.72584414482117,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 332.76275420188904,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 333.80444407463074,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 334.84218192100525,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 335.8848729133606,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 336.9260890483856,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 337.96836400032043,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 339.00821900367737,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 340.04500699043274,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 341.07035398483276,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 342.10908913612366,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 343.147665977478,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 344.18440198898315,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 345.22290420532227,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 346.26236605644226,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 347.30532002449036,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 348.34197783470154,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 349.37957406044006,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 350.4266719818115,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 351.4672269821167,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 352.5082881450653,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 353.54953503608704,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 354.5878930091858,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 355.6262171268463,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 356.6643888950348,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 357.6802649497986,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 358.7207980155945,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 359.76197695732117,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 360.7984941005707,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 361.83599281311035,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 362.8773579597473,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 363.9178960323334,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 364.95571208000183,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 365.99662709236145,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 367.03756189346313,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 368.0795111656189,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 369.1180820465088,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 370.158007144928,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 371.17749094963074,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 372.2185289859772,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 373.2563121318817,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 374.2971079349518,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 375.3343210220337,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 376.3750150203705,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 377.41812205314636,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 378.46288323402405,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 379.5061399936676,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 380.5424621105194,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 381.5802299976349,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 382.62078189849854,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 383.6646001338959,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 384.7045331001282,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 385.7497730255127,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 386.7913417816162,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 387.837522983551,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 388.87254786491394,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 389.90690207481384,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 390.94716000556946,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 391.99298906326294,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 393.03305101394653,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 394.0796501636505,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 395.10891819000244,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 396.15468192100525,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 397.19460701942444,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 398.2308909893036,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 399.2747280597687,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 400.32320499420166,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 401.3675148487091,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 402.401389837265,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 403.4361050128937,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 404.48268389701843,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 405.5257558822632,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 406.56126284599304,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 407.6012849807739,
+        "avg_latency": 10.0,
+        "total_cost": 1.5
+    },
+    {
+        "time": 408.6430640220642,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 409.6893539428711,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 410.7305450439453,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 411.7769899368286,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 412.81536388397217,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 413.8625018596649,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 414.90504813194275,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 415.93971490859985,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 416.97976994514465,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 418.0254180431366,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 419.06966519355774,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 420.1053898334503,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 421.14261507987976,
+        "avg_latency": 10.0,
+        "total_cost": 1.5
+    },
+    {
+        "time": 422.1800467967987,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 423.2108600139618,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 424.2564628124237,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 425.2927281856537,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 426.34024810791016,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 427.3762152194977,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 428.4167399406433,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 429.45780205726624,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 430.49346590042114,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 431.5349440574646,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 432.5804970264435,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 433.62514305114746,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 434.66368293762207,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 435.7049958705902,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 436.75199604034424,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 437.7818398475647,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 438.81742906570435,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 439.862389087677,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 440.9061031341553,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 441.94960498809814,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 442.9911549091339,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 444.02994298934937,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 445.05177879333496,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 446.0874698162079,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 447.12249398231506,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 448.15996289253235,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 449.2012219429016,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 450.2471969127655,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 451.29303312301636,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 452.3354251384735,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 453.3804988861084,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 454.4203290939331,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 455.4630038738251,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 456.5037169456482,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 457.54009890556335,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 458.580109834671,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 459.6314809322357,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 460.667946100235,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 461.70450496673584,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 462.7449119091034,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 463.78690481185913,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 464.8222589492798,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 465.863126039505,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 466.8988230228424,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 467.94216084480286,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 468.9809720516205,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 470.0198040008545,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 471.0554618835449,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 472.0930850505829,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 473.1302649974823,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 474.1635060310364,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 475.2015960216522,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 476.2403631210327,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 477.28063106536865,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 478.32083106040955,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 479.3683521747589,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 480.40717005729675,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 481.444207906723,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 482.4859070777893,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 483.52650713920593,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 484.56533312797546,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 485.6018319129944,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 486.64046120643616,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 487.65885281562805,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 488.70004415512085,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 489.74055194854736,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 490.7810549736023,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 491.8203139305115,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 492.8522410392761,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 493.8924648761749,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 494.9241931438446,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 495.96389985084534,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 497.0026891231537,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 498.04783296585083,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 499.0875668525696,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 500.1240220069885,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 501.16033387184143,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 502.200599193573,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 503.23394989967346,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 504.2745749950409,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 505.3146541118622,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 506.35012197494507,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 507.38626408576965,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 508.4241280555725,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 509.46130990982056,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 510.50121092796326,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 511.54196786880493,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 512.5816640853882,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 513.6211829185486,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 514.6549577713013,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 515.6961810588837,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 516.7343590259552,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 517.7579741477966,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 518.7924330234528,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 519.8210980892181,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 520.8599760532379,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 521.8995368480682,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 522.928227186203,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 523.9537920951843,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 524.9892680644989,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 526.0290598869324,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 527.0668570995331,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 528.1025469303131,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 529.1493058204651,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 530.1954319477081,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 531.237212896347,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 532.2726700305939,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 533.309319972992,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 534.347188949585,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 535.3841638565063,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 536.4215381145477,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 537.4612228870392,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 538.4975459575653,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 539.5312211513519,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 540.5688788890839,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 541.6044402122498,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 542.6404778957367,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 543.6791749000549,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 544.7179651260376,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 545.757875919342,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 546.7860639095306,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 547.8041951656342,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 548.8446989059448,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 549.8842198848724,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 550.9272022247314,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 551.9663848876953,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 553.0043442249298,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 554.0431900024414,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 555.0654489994049,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 556.1005220413208,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 557.133355140686,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 558.1716837882996,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 559.2082052230835,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 560.2464909553528,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 561.2854290008545,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 562.3244721889496,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 563.3595149517059,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 564.3952379226685,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 565.4338529109955,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 566.4662389755249,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 567.4997839927673,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 568.5362539291382,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 569.5728740692139,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 570.6116271018982,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 571.6497318744659,
+        "avg_latency": 10.0,
+        "total_cost": 3.0
+    },
+    {
+        "time": 572.6855540275574,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 573.7206339836121,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 574.7576541900635,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 575.7943580150604,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 576.8288640975952,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 577.8516130447388,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 578.8808741569519,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 579.9080059528351,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 580.944568157196,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 581.9817910194397,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 583.0212218761444,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 584.057293176651,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 585.0795028209686,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 586.1136798858643,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 587.1469740867615,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 588.1839728355408,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 589.2228591442108,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 590.2608888149261,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 591.3004920482635,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 592.3404500484467,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 593.3755548000336,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 594.4105491638184,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 595.4483060836792,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 596.487694978714,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 597.5286071300507,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 598.5632331371307,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 599.6002719402313,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 600.6477670669556,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 601.6862201690674,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 602.7226870059967,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 603.7600419521332,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 604.7975609302521,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 605.8353381156921,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 606.8579330444336,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 607.8908958435059,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 608.9281849861145,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 609.962944984436,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 611.0006642341614,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 612.0400111675262,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 613.0642981529236,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 614.0921280384064,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 615.107507944107,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 616.1389791965485,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 617.1746549606323,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 618.2127208709717,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 619.2514288425446,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 620.2899851799011,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 621.3278250694275,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 622.3666069507599,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 623.4030690193176,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 624.4398720264435,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 625.4796240329742,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 626.5160970687866,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 627.5500869750977,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 628.5867111682892,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 629.6243269443512,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 630.6642858982086,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 631.702702999115,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 632.7503690719604,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 633.7871210575104,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 634.8211300373077,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 635.8608179092407,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 636.8985280990601,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 637.9337151050568,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 638.9675469398499,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 639.9945600032806,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 641.0336000919342,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 642.0728678703308,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 643.108325958252,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 644.1466269493103,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 645.1661288738251,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 646.2002980709076,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 647.2346110343933,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 648.2702338695526,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 649.3077759742737,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 650.3427090644836,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 651.3846960067749,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 652.4201438426971,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 653.4550249576569,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 654.4895970821381,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 655.5265998840332,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 656.559800863266,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 657.5969429016113,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 658.6338970661163,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 659.6691179275513,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 660.7077529430389,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 661.7418801784515,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 662.7764739990234,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 663.8107070922852,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 664.8503968715668,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 665.8834881782532,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 666.921080827713,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 667.9581220149994,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 668.9944050312042,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 670.0302920341492,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 671.0660109519958,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 672.1012470722198,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 673.1405229568481,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 674.1788449287415,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 675.2018959522247,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 676.2401459217072,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 677.274050951004,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 678.308482170105,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 679.3473789691925,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 680.3826179504395,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 681.41872382164,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 682.4535031318665,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 683.4875559806824,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 684.523001909256,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 685.5617229938507,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 686.5951459407806,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 687.6305348873138,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 688.6678290367126,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 689.7051000595093,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 690.7427568435669,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 691.7686741352081,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 692.8040678501129,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 693.8438348770142,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 694.8808360099792,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 695.9152011871338,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 696.9517939090729,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 697.9893231391907,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 699.0279340744019,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 700.0658869743347,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 701.1052930355072,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 702.1413471698761,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 703.174290895462,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 704.2132799625397,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 705.2356722354889,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 706.2601969242096,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 707.2926158905029,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 708.3328120708466,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 709.3657281398773,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 710.4083440303802,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 711.4446821212769,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 712.4806821346283,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 713.5176770687103,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 714.5511271953583,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 715.5874691009521,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 716.6237981319427,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 717.6583619117737,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 718.6930050849915,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 719.7307178974152,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 720.7674870491028,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 721.8060801029205,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 722.843987941742,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 723.8818020820618,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 724.9164350032806,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 725.9518659114838,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 726.9895508289337,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 728.0238790512085,
+        "avg_latency": 10.0,
+        "total_cost": 6.0
+    },
+    {
+        "time": 729.0592949390411,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 730.0911560058594,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 731.1265349388123,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 732.1588020324707,
+        "avg_latency": 10.0,
+        "total_cost": 4.5
+    },
+    {
+        "time": 733.1929512023926,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 734.2242691516876,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 735.249694108963,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 736.2856450080872,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 737.3269021511078,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 738.3628318309784,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 739.4029021263123,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 740.4362919330597,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 741.4737889766693,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 742.5111320018768,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 743.5458669662476,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 744.5716300010681,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 745.6100218296051,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 746.641683101654,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 747.6800351142883,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 748.7192800045013,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 749.758003950119,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 750.7961428165436,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 751.8280580043793,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 752.860741853714,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 753.9000430107117,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 754.9367051124573,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 755.9736928939819,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 757.0085470676422,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 758.0446920394897,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 759.0828309059143,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 760.1167459487915,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 761.1560788154602,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 762.1880419254303,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 763.2265648841858,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 764.2633678913116,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 765.2885420322418,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 766.3226351737976,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 767.356917142868,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 768.3904550075531,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 769.4260170459747,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 770.4601550102234,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 771.497880935669,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 772.5359530448914,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 773.5717041492462,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 774.60919713974,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 775.6464688777924,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 776.6825590133667,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 777.723650932312,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 778.7572600841522,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 779.7928600311279,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 780.8270218372345,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 781.8632500171661,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 782.8891348838806,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 783.9237599372864,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 784.9613058567047,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 785.9986870288849,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 787.0356240272522,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 788.0691390037537,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 789.1000421047211,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 790.1333389282227,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 791.1704671382904,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 792.2087650299072,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 793.2475380897522,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 794.2821640968323,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 795.3182029724121,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 796.3571798801422,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 797.3906161785126,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 798.4270641803741,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 799.4642760753632,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 800.5003972053528,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 801.5363478660583,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 802.5761280059814,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 803.6150710582733,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 804.6563239097595,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 805.6939029693604,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 806.7253551483154,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 807.7505438327789,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 808.7877042293549,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 809.8244910240173,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 810.8608992099762,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 811.8973269462585,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 812.9336090087891,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 813.9705801010132,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 815.0075349807739,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 816.0477139949799,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 817.0848610401154,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 818.118616104126,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 819.1539690494537,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 820.1914451122284,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 821.2282900810242,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 822.2652318477631,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 823.2977180480957,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 824.3346040248871,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 825.3708560466766,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 826.4008882045746,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 827.4341309070587,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 828.468945980072,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 829.5051548480988,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 830.5306859016418,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 831.5589110851288,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 832.5976819992065,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 833.6343140602112,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 834.6694090366364,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 835.7021720409393,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 836.7387390136719,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 837.7620720863342,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 838.8005058765411,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 839.8371410369873,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 840.8726680278778,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 841.9087891578674,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 842.9459478855133,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 843.9796180725098,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 845.0120232105255,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 846.0487928390503,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 847.0799062252045,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 848.115483045578,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 849.1513957977295,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 850.1860837936401,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 851.2118530273438,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 852.244421005249,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 853.2798390388489,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 854.3161358833313,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 855.3496751785278,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 856.3855900764465,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 857.4226770401001,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 858.4597780704498,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 859.4954791069031,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 860.5312080383301,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 861.5635211467743,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 862.5972769260406,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 863.6301040649414,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 864.6681289672852,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 865.7055690288544,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 866.7377691268921,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 867.7570650577545,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 868.793023109436,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 869.831433057785,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 870.868280172348,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 871.9029619693756,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 872.9383881092072,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 873.9746780395508,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 875.0090267658234,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 876.0462348461151,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 877.0837440490723,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 878.1201071739197,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 879.1564049720764,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 880.1878111362457,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 881.2235310077667,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 882.2613019943237,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 883.2958080768585,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 884.3302218914032,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 885.3601710796356,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 886.3955709934235,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 887.4301588535309,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 888.4621269702911,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 889.4983630180359,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 890.5333859920502,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 891.5649108886719,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 892.6001811027527,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 893.6343109607697,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 894.6672039031982,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 895.7031428813934,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 896.7385218143463,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 897.7740712165833,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 898.8124990463257,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 899.8469200134277,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 900.8794620037079,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 901.9162929058075,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 902.9511601924896,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 903.9841301441193,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 905.0182530879974,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 906.053552865982,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 907.0879471302032,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 908.1246509552002,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 909.1550238132477,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 910.1928660869598,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 911.2203710079193,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 912.2553129196167,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 913.2880220413208,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 914.3205461502075,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 915.3495109081268,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 916.3840560913086,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 917.4202151298523,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 918.4577789306641,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 919.4947211742401,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 920.5265800952911,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 921.5570440292358,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 922.5929658412933,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 923.6273989677429,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 924.6624100208282,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 925.6946339607239,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 926.7311079502106,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 927.7701950073242,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 928.8049092292786,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 929.8410692214966,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 930.8740041255951,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 931.9086890220642,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 932.945317029953,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 933.9734239578247,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 935.0048789978027,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 936.0397350788116,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 937.0712490081787,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 938.1083111763,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 939.1435930728912,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 940.1792130470276,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 941.2144131660461,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 942.2497699260712,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 943.2835431098938,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 944.3197288513184,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 945.3436560630798,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 946.379077911377,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 947.4147510528564,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 948.4510269165039,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 949.4853789806366,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 950.5139920711517,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 951.55060505867,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 952.5836801528931,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 953.6137800216675,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 954.6490919589996,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 955.6826429367065,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 956.7182149887085,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 957.7517759799957,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 958.7884020805359,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 959.8188500404358,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 960.8566520214081,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 961.892336845398,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 962.9276611804962,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 963.946328163147,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 964.9820780754089,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 966.0156359672546,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 967.0520060062408,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 968.0858659744263,
+        "avg_latency": 10.0,
+        "total_cost": 19.5
+    },
+    {
+        "time": 969.1219580173492,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 970.1551361083984,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 971.18931889534,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 972.2251081466675,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 973.259213924408,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 974.2969689369202,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 975.3194890022278,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 976.3556060791016,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 977.3882508277893,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 978.4236009120941,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 979.4564669132233,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 980.492269039154,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 981.5273170471191,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 982.563334941864,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 983.5996291637421,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 984.6355199813843,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 985.6708691120148,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 986.7043368816376,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 987.7369611263275,
+        "avg_latency": 10.0,
+        "total_cost": 10.5
+    },
+    {
+        "time": 988.7721509933472,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 989.8086338043213,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 990.8461709022522,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 991.8789682388306,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 992.9153680801392,
+        "avg_latency": 10.0,
+        "total_cost": 7.5
+    },
+    {
+        "time": 993.9522969722748,
+        "avg_latency": 10.0,
+        "total_cost": 9.0
+    },
+    {
+        "time": 994.9839470386505,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 996.0192000865936,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 997.0505340099335,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 998.0865008831024,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 999.1189789772034,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1000.1517782211304,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1001.1839280128479,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1002.2190430164337,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1003.2550730705261,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1004.2933440208435,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1005.3148329257965,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1006.3489401340485,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1007.3837351799011,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1008.4180119037628,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1009.4512667655945,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1010.4869120121002,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1011.5228118896484,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1012.5595128536224,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1013.590117931366,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1014.6263360977173,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1015.6625921726227,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1016.6902740001678,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1017.7261140346527,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1018.7649569511414,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1019.7966380119324,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1020.8313190937042,
+        "avg_latency": 10.0,
+        "total_cost": 12.0
+    },
+    {
+        "time": 1021.8664500713348,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1022.90260887146,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1023.922954082489,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1024.9556460380554,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1025.9896450042725,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1027.021019935608,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1028.0512070655823,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1029.0851609706879,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1030.1202640533447,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1031.154695034027,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1032.1912469863892,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1033.2256350517273,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1034.260442018509,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1035.2753460407257,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1036.3105731010437,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1037.3442928791046,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1038.3796088695526,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1039.4133031368256,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1040.4433858394623,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1041.476590871811,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1042.5079607963562,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1043.5382890701294,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1044.5634729862213,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1045.601951122284,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1046.6361739635468,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1047.6733629703522,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1048.7098460197449,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1049.7443678379059,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1050.7774422168732,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1051.8126180171967,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1052.8435888290405,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1053.879406929016,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1054.9146690368652,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1055.9505999088287,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1056.9811389446259,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1058.0014898777008,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1059.0370528697968,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1060.0738699436188,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1061.1064751148224,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1062.139142036438,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1063.174936056137,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1064.2114088535309,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1065.2446489334106,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1066.277869939804,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1067.3172090053558,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1068.3535928726196,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1069.390081167221,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1070.4210681915283,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1071.4511470794678,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1072.488615989685,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1073.5240459442139,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1074.5599789619446,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1075.5952699184418,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1076.6315541267395,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1077.6656048297882,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1078.7052087783813,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1079.7391510009766,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1080.7747011184692,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1081.8092839717865,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1082.842668056488,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1083.8771851062775,
+        "avg_latency": 10.0,
+        "total_cost": 15.0
+    },
+    {
+        "time": 1084.9127099514008,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1085.9479360580444,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1086.9837279319763,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1088.001855134964,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1089.0315761566162,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1090.07080411911,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1091.1018488407135,
+        "avg_latency": 10.0,
+        "total_cost": 13.5
+    },
+    {
+        "time": 1092.1367299556732,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1093.1719858646393,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1094.2102799415588,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1095.2464799880981,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1096.2781479358673,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1097.3156690597534,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1098.3505280017853,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1099.3877630233765,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1100.423003911972,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1101.454402923584,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1102.489238023758,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1103.5207200050354,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1104.5576829910278,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1105.5987730026245,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1106.6397981643677,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1107.6829850673676,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1108.7234790325165,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1109.7593700885773,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1110.7915768623352,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1111.8325278759003,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1112.8683578968048,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1113.902134180069,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1114.9386229515076,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1115.9668979644775,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1117.0056929588318,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1118.0248498916626,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1119.0616631507874,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1120.0989258289337,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1121.1385390758514,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1122.171720981598,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1123.206957101822,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1124.2478568553925,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1125.2846868038177,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1126.3243520259857,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1127.3555359840393,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1128.3905959129333,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1129.4227941036224,
+        "avg_latency": 10.0,
+        "total_cost": 16.5
+    },
+    {
+        "time": 1130.4571290016174,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1131.4979779720306,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1132.5364911556244,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1133.5680329799652,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1134.6021881103516,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1135.6346089839935,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1136.674499988556,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1137.714756011963,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1138.7493410110474,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1139.789521932602,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1140.8290340900421,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1141.8679950237274,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1142.9082930088043,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1143.9460308551788,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1144.991448879242,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1146.0311591625214,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1147.0707731246948,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1148.1001098155975,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1149.1454830169678,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1150.1793279647827,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1151.2084419727325,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1152.2428591251373,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1153.2799859046936,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1154.314565896988,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1155.331388950348,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1156.3649768829346,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1157.4001920223236,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1158.4331500530243,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1159.4674289226532,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1160.5010540485382,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1161.5362792015076,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1162.5771400928497,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1163.6171510219574,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1164.6565001010895,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1165.6970970630646,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1166.727950811386,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1167.755273103714,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1168.7920470237732,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1169.8340768814087,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1170.8806669712067,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1171.9155988693237,
+        "avg_latency": 10.0,
+        "total_cost": 18.0
+    },
+    {
+        "time": 1172.9558160305023,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1173.9960939884186,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1175.0344178676605,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1176.0745680332184,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1177.1143271923065,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1178.151542186737,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1179.1937489509583,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1180.230917930603,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1181.262733221054,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1182.298001050949,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1183.3302578926086,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1184.365592956543,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1185.3879890441895,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1186.427626132965,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1187.4637551307678,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1188.4993460178375,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1189.5338439941406,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1190.5679280757904,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1191.6019129753113,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1192.6372890472412,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1193.668576002121,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1194.7032120227814,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1195.734829902649,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1196.770527124405,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1197.8054568767548,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1198.837996006012,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    },
+    {
+        "time": 1199.8725562095642,
+        "avg_latency": 10.0,
+        "total_cost": 21.0
+    }
+]
